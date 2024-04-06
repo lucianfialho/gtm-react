@@ -1,0 +1,37 @@
+{
+  "name": "gtm-react",
+  "version": "1.0.0",
+  "description": "Google Tag Manager module for React\"",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist --extensions \".js,.jsx\" --source-maps inline"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "google-tag-manager",
+    "tag manager",
+    "gtm",
+    "google tag manager"
+  ],
+  "author": {
+    "name": "Lucian Fialho",
+    "url": "https://github.com/lucianfialho"
+  },
+  "bugs": {
+    "url": "https://github.com/lucianfialho/gtm-react/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.24.1",
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "react": "^18.2.0"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0"
+  }
+}
