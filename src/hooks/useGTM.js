@@ -1,5 +1,3 @@
-// hooks/useGTM.js
-
 /**
  * Hook personalizado para interagir com a camada de dados do Google Tag Manager.
  */
